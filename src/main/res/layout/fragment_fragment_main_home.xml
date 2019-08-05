@@ -1,0 +1,28 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmain"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    tools:context="com.amazingtech.petrolfinder.FragmentMainHome">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.daimajia.slider.library.SliderLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:id="@+id/slider1" />
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/gridview"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/slider1"
+            android:numColumns="3"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Fuel Finder</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="action_settings">Settings</string>
+    <string name="hint_name">Full Name</string>
+    <string name="hint_mobile">Mobile no.</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_ownername">Owner Name</string>
+    <string name="hint_latt">Enter Lattitude</string>
+    <string name="hint_long">Enter Longitude</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="btn_sign_in">Sign In</string>
+    <string name="btn_logout_from_google">Sign out</string>
+    <string name="btn_revoke_access">Revoke access</string>
+    <string name="loading">Loading...</string>
+    <string name="err_msg_name">Enter your full name</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_mobile">Enter valid mobile no.</string>
+    <string name="err_msg_password">Enter the password</string>
+
+    <string name="fb_app_id">121775021795462</string>
+</resources>

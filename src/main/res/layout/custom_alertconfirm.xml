@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#80ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alert"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#8ab908"
+        android:layout_margin="10dp"
+        android:id="@+id/txmsg1" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#80808080"
+        ></View>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/txtmessage"
+        android:layout_margin="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btncardshape"
+            android:text="No"
+            android:id="@+id/btnno"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:paddingBottom="8dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:layout_margin="10dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btncardshape"
+            android:text="OK"
+            android:id="@+id/btnok1"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:layout_weight="1"
+            android:paddingBottom="8dp"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
